@@ -16,6 +16,16 @@ Reads the example image and applies a gaussian filter to it.
 Included main method use 3x3 and 7x7 kernels, and output to `gaussian3x3.png` and `gaussian7x7.png` respectively.
 
 ***
+## Example Image with Salt & Pepper Noise
+![](example.png)
+## Output
+
+| Type\Size | 3x3 | 7x7 |
+|:---------:|:---:|:---:|
+| Mean      |![](mean3x3.png) |![](mean7x7.png)|
+| Median    |![](median3x3.png) |![](median7x7.png)|
+| Gaussian  |![](gaussian3x3.png) |![](gaussian7x7.png)|
+
 ## Observations
 - Mean filter
   * The outputted image by the (7x7) kernel is blurrier than the one outputted by the (3x3) kernel.
